@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TCP Server for String Reversal</title>
-</head>
-<body>
+
     <h1>TCP Server for String Reversal</h1>
 
     <p>This is a simple TCP server written in Java that allows multiple clients to connect simultaneously and reverses strings sent by clients. The server limits the maximum number of clients to 10 and introduces a delay using <code>Thread.sleep()</code> to simulate processing.</p>
@@ -50,5 +43,3 @@
 
     <h2>License</h2>
     <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-</body>
-</html>
