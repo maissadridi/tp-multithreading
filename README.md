@@ -31,13 +31,16 @@ You can connect clients to the server using any TCP client application. Here's a
 ```bash
 telnet localhost 12345
 ```
-3. Sending Strings
+### Sending Strings
+
 Once connected, you can send strings to the server. The server will reverse each string and send the reversed string back to the client. A delay of 1 second is introduced for processing each string.
 
-4. Exiting
+### Exiting
+
 To exit the server, simply terminate the process.
 
-5. Customization
+### Customization
+
 You can customize the server port by modifying the PORT constant in the TCPServer class.
 Adjust the maximum number of clients allowed by changing the MAX_CLIENTS constant in the TCPServer class.
 Modify the processing delay by changing the argument of Thread.sleep() in the ClientHandler class.
